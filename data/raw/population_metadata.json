@@ -1,0 +1,711 @@
+{
+  "id" : "xi7c-iiu2",
+  "name" : "New York City Population By Community Districts",
+  "assetType" : "dataset",
+  "attribution" : "Department of City Planning (DCP)",
+  "attributionLink" : "http://www.nyc.gov/html/dcp/html/census/demo_tables_2010.shtml",
+  "averageRating" : 0,
+  "category" : "City Government",
+  "createdAt" : 1361381378,
+  "description" : "New York City Population By Community Districts\r\n\r\nThe data was collected from Census Bureaus' Decennial data dissemination (SF1) for the years 1970, 1980, 1990, 2000 and 2010.\r\n\r\nCompiled by the Population Division – New York City Department of City Planning",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 20424,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "indexUpdatedAt" : 1536596719,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 4208901,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1372266948,
+  "publicationGroup" : 689118,
+  "publicationStage" : "published",
+  "rowClass" : "",
+  "rowsUpdatedAt" : 1731444347,
+  "tableId" : 942505,
+  "totalTimesRated" : 0,
+  "viewCount" : 67919,
+  "viewLastModified" : 1731444346,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1372266948,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 1064774,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1372266948,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 77013032,
+    "name" : "Borough",
+    "dataTypeName" : "text",
+    "fieldName" : "borough",
+    "position" : 1,
+    "renderTypeName" : "text",
+    "tableColumnId" : 8016995,
+    "width" : 87,
+    "cachedContents" : {
+      "non_null" : "59",
+      "largest" : "Staten Island",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Brooklyn",
+        "count" : "18"
+      }, {
+        "item" : "Queens",
+        "count" : "14"
+      }, {
+        "item" : "Manhattan",
+        "count" : "12"
+      }, {
+        "item" : "Bronx",
+        "count" : "12"
+      }, {
+        "item" : "Staten Island",
+        "count" : "3"
+      } ],
+      "smallest" : "Bronx",
+      "count" : "59",
+      "cardinality" : "5"
+    },
+    "format" : { }
+  }, {
+    "id" : 77013033,
+    "name" : "CD Number",
+    "dataTypeName" : "number",
+    "fieldName" : "cd_number",
+    "position" : 2,
+    "renderTypeName" : "number",
+    "tableColumnId" : 8016998,
+    "width" : 68,
+    "cachedContents" : {
+      "non_null" : "59",
+      "average" : "7.423728813559322",
+      "largest" : "18",
+      "null" : "0",
+      "top" : [ {
+        "item" : "3",
+        "count" : "5"
+      }, {
+        "item" : "2",
+        "count" : "5"
+      }, {
+        "item" : "1",
+        "count" : "5"
+      }, {
+        "item" : "8",
+        "count" : "4"
+      }, {
+        "item" : "7",
+        "count" : "4"
+      }, {
+        "item" : "12",
+        "count" : "4"
+      }, {
+        "item" : "4",
+        "count" : "4"
+      }, {
+        "item" : "9",
+        "count" : "4"
+      }, {
+        "item" : "6",
+        "count" : "4"
+      }, {
+        "item" : "5",
+        "count" : "4"
+      }, {
+        "item" : "10",
+        "count" : "4"
+      }, {
+        "item" : "11",
+        "count" : "4"
+      }, {
+        "item" : "14",
+        "count" : "2"
+      }, {
+        "item" : "13",
+        "count" : "2"
+      }, {
+        "item" : "18",
+        "count" : "1"
+      }, {
+        "item" : "15",
+        "count" : "1"
+      }, {
+        "item" : "17",
+        "count" : "1"
+      }, {
+        "item" : "16",
+        "count" : "1"
+      } ],
+      "smallest" : "1",
+      "count" : "59",
+      "sum" : "438",
+      "cardinality" : "18"
+    },
+    "format" : { }
+  }, {
+    "id" : 77013034,
+    "name" : "CD Name",
+    "dataTypeName" : "text",
+    "fieldName" : "cd_name",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 8017000,
+    "width" : 262,
+    "cachedContents" : {
+      "non_null" : "59",
+      "largest" : "Woodhaven, Richmond Hill",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Bedford Stuyvesant",
+        "count" : "1"
+      }, {
+        "item" : "Williamsburg, Greenpoint",
+        "count" : "1"
+      }, {
+        "item" : "Soundview, Parkchester",
+        "count" : "1"
+      }, {
+        "item" : "Chelsea, Clinton",
+        "count" : "1"
+      }, {
+        "item" : "Sheepshead Bay, Gerritsen Beach",
+        "count" : "1"
+      }, {
+        "item" : "Battery Park City, Tribeca",
+        "count" : "1"
+      }, {
+        "item" : "Canarsie, Flatlands",
+        "count" : "1"
+      }, {
+        "item" : "University Hts., Fordham, Mt. Hope",
+        "count" : "1"
+      }, {
+        "item" : "East Tremont, Belmont",
+        "count" : "1"
+      }, {
+        "item" : "Greenwich Village, Soho",
+        "count" : "1"
+      }, {
+        "item" : "Borough Park, Ocean Parkway",
+        "count" : "1"
+      }, {
+        "item" : "Washington Heights, Inwood",
+        "count" : "1"
+      }, {
+        "item" : "Pelham Pkwy, Morris Park, Laconia",
+        "count" : "1"
+      }, {
+        "item" : "Queens Village, Rosedale",
+        "count" : "1"
+      }, {
+        "item" : "Forest Hills, Rego Park",
+        "count" : "1"
+      }, {
+        "item" : "Ridgewood, Glendale, Maspeth",
+        "count" : "1"
+      }, {
+        "item" : "Midtown Business District",
+        "count" : "1"
+      }, {
+        "item" : "Astoria, Long Island City",
+        "count" : "1"
+      }, {
+        "item" : "Elmhurst, South Corona",
+        "count" : "1"
+      }, {
+        "item" : "Hunts Point, Longwood",
+        "count" : "1"
+      } ],
+      "smallest" : "Astoria, Long Island City",
+      "count" : "59",
+      "cardinality" : "59"
+    },
+    "format" : { }
+  }, {
+    "id" : 77013054,
+    "name" : "1970 Population",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "_1970_population",
+    "position" : 4,
+    "renderTypeName" : "number",
+    "tableColumnId" : 8017001,
+    "width" : 258,
+    "cachedContents" : {
+      "non_null" : "59",
+      "average" : "133784.0847457627",
+      "largest" : "212422",
+      "null" : "0",
+      "top" : [ {
+        "item" : "85985",
+        "count" : "1"
+      }, {
+        "item" : "138557",
+        "count" : "1"
+      }, {
+        "item" : "135875",
+        "count" : "1"
+      }, {
+        "item" : "181845",
+        "count" : "1"
+      }, {
+        "item" : "170791",
+        "count" : "1"
+      }, {
+        "item" : "135010",
+        "count" : "1"
+      }, {
+        "item" : "110221",
+        "count" : "1"
+      }, {
+        "item" : "122589",
+        "count" : "1"
+      }, {
+        "item" : "127883",
+        "count" : "1"
+      }, {
+        "item" : "166301",
+        "count" : "1"
+      }, {
+        "item" : "84337",
+        "count" : "1"
+      }, {
+        "item" : "144207",
+        "count" : "1"
+      }, {
+        "item" : "149496",
+        "count" : "1"
+      }, {
+        "item" : "97750",
+        "count" : "1"
+      }, {
+        "item" : "111607",
+        "count" : "1"
+      }, {
+        "item" : "170119",
+        "count" : "1"
+      }, {
+        "item" : "84948",
+        "count" : "1"
+      }, {
+        "item" : "120429",
+        "count" : "1"
+      }, {
+        "item" : "159267",
+        "count" : "1"
+      }, {
+        "item" : "129822",
+        "count" : "1"
+      } ],
+      "smallest" : "7706",
+      "count" : "59",
+      "sum" : "7893261",
+      "cardinality" : "59"
+    },
+    "format" : { }
+  }, {
+    "id" : 77013063,
+    "name" : "1980 Population",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "_1980_population",
+    "position" : 5,
+    "renderTypeName" : "number",
+    "tableColumnId" : 8017002,
+    "width" : 252,
+    "cachedContents" : {
+      "non_null" : "59",
+      "average" : "119842.7966101695",
+      "largest" : "206669",
+      "null" : "0",
+      "top" : [ {
+        "item" : "73801",
+        "count" : "1"
+      }, {
+        "item" : "110228",
+        "count" : "1"
+      }, {
+        "item" : "65016",
+        "count" : "1"
+      }, {
+        "item" : "150142",
+        "count" : "1"
+      }, {
+        "item" : "82164",
+        "count" : "1"
+      }, {
+        "item" : "98567",
+        "count" : "1"
+      }, {
+        "item" : "155072",
+        "count" : "1"
+      }, {
+        "item" : "100030",
+        "count" : "1"
+      }, {
+        "item" : "154848",
+        "count" : "1"
+      }, {
+        "item" : "15918",
+        "count" : "1"
+      }, {
+        "item" : "96669",
+        "count" : "1"
+      }, {
+        "item" : "154931",
+        "count" : "1"
+      }, {
+        "item" : "133379",
+        "count" : "1"
+      }, {
+        "item" : "138489",
+        "count" : "1"
+      }, {
+        "item" : "143859",
+        "count" : "1"
+      }, {
+        "item" : "189383",
+        "count" : "1"
+      }, {
+        "item" : "114569",
+        "count" : "1"
+      }, {
+        "item" : "185198",
+        "count" : "1"
+      }, {
+        "item" : "105651",
+        "count" : "1"
+      }, {
+        "item" : "100592",
+        "count" : "1"
+      } ],
+      "smallest" : "15918",
+      "count" : "59",
+      "sum" : "7070725",
+      "cardinality" : "59"
+    },
+    "format" : { }
+  }, {
+    "id" : 77013064,
+    "name" : "1990 Population",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "_1990_population",
+    "position" : 6,
+    "renderTypeName" : "number",
+    "tableColumnId" : 8017003,
+    "width" : 276,
+    "cachedContents" : {
+      "non_null" : "59",
+      "average" : "124103.2372881356",
+      "largest" : "220508",
+      "null" : "0",
+      "top" : [ {
+        "item" : "161261",
+        "count" : "1"
+      }, {
+        "item" : "129620",
+        "count" : "1"
+      }, {
+        "item" : "102724",
+        "count" : "1"
+      }, {
+        "item" : "128588",
+        "count" : "1"
+      }, {
+        "item" : "149126",
+        "count" : "1"
+      }, {
+        "item" : "57162",
+        "count" : "1"
+      }, {
+        "item" : "97030",
+        "count" : "1"
+      }, {
+        "item" : "102553",
+        "count" : "1"
+      }, {
+        "item" : "68061",
+        "count" : "1"
+      }, {
+        "item" : "177535",
+        "count" : "1"
+      }, {
+        "item" : "133748",
+        "count" : "1"
+      }, {
+        "item" : "119962",
+        "count" : "1"
+      }, {
+        "item" : "128924",
+        "count" : "1"
+      }, {
+        "item" : "210880",
+        "count" : "1"
+      }, {
+        "item" : "102572",
+        "count" : "1"
+      }, {
+        "item" : "108093",
+        "count" : "1"
+      }, {
+        "item" : "94105",
+        "count" : "1"
+      }, {
+        "item" : "143477",
+        "count" : "1"
+      }, {
+        "item" : "155972",
+        "count" : "1"
+      }, {
+        "item" : "161350",
+        "count" : "1"
+      } ],
+      "smallest" : "25366",
+      "count" : "59",
+      "sum" : "7322091",
+      "cardinality" : "59"
+    },
+    "format" : { }
+  }, {
+    "id" : 77013065,
+    "name" : "2000 Population",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "_2000_population",
+    "position" : 7,
+    "renderTypeName" : "number",
+    "tableColumnId" : 8017004,
+    "width" : 279,
+    "cachedContents" : {
+      "non_null" : "59",
+      "average" : "135681.4915254237",
+      "largest" : "242952",
+      "null" : "0",
+      "top" : [ {
+        "item" : "149077",
+        "count" : "1"
+      }, {
+        "item" : "160319",
+        "count" : "1"
+      }, {
+        "item" : "107109",
+        "count" : "1"
+      }, {
+        "item" : "106120",
+        "count" : "1"
+      }, {
+        "item" : "106686",
+        "count" : "1"
+      }, {
+        "item" : "85343",
+        "count" : "1"
+      }, {
+        "item" : "75688",
+        "count" : "1"
+      }, {
+        "item" : "164407",
+        "count" : "1"
+      }, {
+        "item" : "98620",
+        "count" : "1"
+      }, {
+        "item" : "128313",
+        "count" : "1"
+      }, {
+        "item" : "127071",
+        "count" : "1"
+      }, {
+        "item" : "93119",
+        "count" : "1"
+      }, {
+        "item" : "104358",
+        "count" : "1"
+      }, {
+        "item" : "207699",
+        "count" : "1"
+      }, {
+        "item" : "104054",
+        "count" : "1"
+      }, {
+        "item" : "139563",
+        "count" : "1"
+      }, {
+        "item" : "87479",
+        "count" : "1"
+      }, {
+        "item" : "168806",
+        "count" : "1"
+      }, {
+        "item" : "120063",
+        "count" : "1"
+      }, {
+        "item" : "143867",
+        "count" : "1"
+      } ],
+      "smallest" : "34420",
+      "count" : "59",
+      "sum" : "8005208",
+      "cardinality" : "59"
+    },
+    "format" : { }
+  }, {
+    "id" : 77013066,
+    "name" : "2010 Population",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "_2010_population",
+    "position" : 8,
+    "renderTypeName" : "number",
+    "tableColumnId" : 8017005,
+    "width" : 665,
+    "cachedContents" : {
+      "non_null" : "59",
+      "average" : "138503.0508474576",
+      "largest" : "247354",
+      "null" : "0",
+      "top" : [ {
+        "item" : "175756",
+        "count" : "1"
+      }, {
+        "item" : "115723",
+        "count" : "1"
+      }, {
+        "item" : "126230",
+        "count" : "1"
+      }, {
+        "item" : "247354",
+        "count" : "1"
+      }, {
+        "item" : "142745",
+        "count" : "1"
+      }, {
+        "item" : "113257",
+        "count" : "1"
+      }, {
+        "item" : "51673",
+        "count" : "1"
+      }, {
+        "item" : "99617",
+        "count" : "1"
+      }, {
+        "item" : "152344",
+        "count" : "1"
+      }, {
+        "item" : "113232",
+        "count" : "1"
+      }, {
+        "item" : "90016",
+        "count" : "1"
+      }, {
+        "item" : "103245",
+        "count" : "1"
+      }, {
+        "item" : "86468",
+        "count" : "1"
+      }, {
+        "item" : "104278",
+        "count" : "1"
+      }, {
+        "item" : "83268",
+        "count" : "1"
+      }, {
+        "item" : "193543",
+        "count" : "1"
+      }, {
+        "item" : "163277",
+        "count" : "1"
+      }, {
+        "item" : "114978",
+        "count" : "1"
+      }, {
+        "item" : "190020",
+        "count" : "1"
+      }, {
+        "item" : "191382",
+        "count" : "1"
+      } ],
+      "smallest" : "51673",
+      "count" : "59",
+      "sum" : "8171680",
+      "cardinality" : "59"
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "rdfSubject" : "0",
+    "rdfClass" : "",
+    "attachments" : [ {
+      "filename" : "New_York_City_Population_By_Community_Districts.xlsx",
+      "assetId" : "c30cf154-0f7a-4ed5-a1b3-86d6f3e1bf3f",
+      "name" : "New_York_City_Population_By_Community_Districts.xlsx"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "No",
+        "Date Made Public" : "2/20/2013",
+        "Update Frequency" : "Historical data"
+      },
+      "Legislative Compliance" : {
+        "Geo-coding Attached?" : ""
+      },
+      "Dataset Information" : {
+        "Agency" : "Department of City Planning (DCP)"
+      }
+    },
+    "rowLabel" : "Community District",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "dcp", "city", "planning", "population", "growth", "community", "district" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

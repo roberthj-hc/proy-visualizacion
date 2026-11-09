@@ -1,0 +1,17 @@
+{
+  "01_fuentes_y_descarga.ipynb": {
+    "code_cells": 4,
+    "all_executed": true,
+    "errors": []
+  },
+  "02_limpieza_e_integracion.ipynb": {
+    "code_cells": 5,
+    "all_executed": true,
+    "errors": []
+  },
+  "03_figuras_y_resultados.ipynb": {
+    "code_cells": 5,
+    "all_executed": true,
+    "errors": []
+  }
+}

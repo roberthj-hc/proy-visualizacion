@@ -1,0 +1,32 @@
+{
+  "raw_rows": 25355,
+  "raw_columns": 12,
+  "selected_rows": 8319,
+  "processed_rows": 8319,
+  "exact_duplicates_removed": 0,
+  "conflicting_keys": 0,
+  "missing_district_months": 0,
+  "nulls_core": {
+    "basura": 0,
+    "papel": 0,
+    "mgp": 0
+  },
+  "geometry_features": 71,
+  "districts": 59,
+  "non_observed_geometries": 12,
+  "expected_months": 141,
+  "complete_months": 141,
+  "start": "2015-01",
+  "end": "2026-09",
+  "source_end": "2026-10",
+  "comparison_month": "2026-09",
+  "priority_codes": [
+    103,
+    110,
+    202,
+    305,
+    308,
+    311,
+    312
+  ]
+}

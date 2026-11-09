@@ -1,0 +1,6 @@
+pandas
+matplotlib
+geopandas
+requests
+openpyxl
+notebook

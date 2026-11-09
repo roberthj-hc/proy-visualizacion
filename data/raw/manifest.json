@@ -1,0 +1,44 @@
+{
+  "tonnage_metadata.json": {
+    "url": "https://data.cityofnewyork.us/api/views/ebb7-mvp5.json",
+    "downloaded_at_utc": "2026-11-06T10:06:54.530478+00:00",
+    "bytes": 27454,
+    "sha256": "133411eb2bcca105e2e88242fd4de2fd1146d07e9844df24559d7616b2620f45"
+  },
+  "tonnage.csv": {
+    "url": "https://data.cityofnewyork.us/api/views/ebb7-mvp5/rows.csv?accessType=DOWNLOAD",
+    "downloaded_at_utc": "2026-11-06T10:07:05.101916+00:00",
+    "bytes": 1219147,
+    "sha256": "4a6ac2dde549d807ce151b07cb0d6f482835af5c7fd2b21a5f1368d903504d12"
+  },
+  "districts_metadata.json": {
+    "url": "https://data.cityofnewyork.us/api/views/5crt-au7u.json",
+    "downloaded_at_utc": "2026-11-06T10:07:05.320887+00:00",
+    "bytes": 10127,
+    "sha256": "7c1403a7f77694bfea37f27613ab2feb07bd7cff7449ecd1ec654756643d5a3c"
+  },
+  "districts.geojson": {
+    "url": "https://data.cityofnewyork.us/resource/5crt-au7u.geojson?$limit=5000",
+    "downloaded_at_utc": "2026-11-06T10:07:16.880658+00:00",
+    "bytes": 3791565,
+    "sha256": "69b82cfa7c8fcc640b8f86a43cdf2fd4d8f20e874f9c8ee18bb139f761b94226"
+  },
+  "population_metadata.json": {
+    "url": "https://data.cityofnewyork.us/api/views/xi7c-iiu2.json",
+    "downloaded_at_utc": "2026-11-06T10:07:17.150605+00:00",
+    "bytes": 16812,
+    "sha256": "7fd848f9b47cf8c48ba37bcc931d3c7217b23e2308fbc0b1a13d3db145b2f9a3"
+  },
+  "population.csv": {
+    "url": "https://data.cityofnewyork.us/api/views/xi7c-iiu2/rows.csv?accessType=DOWNLOAD",
+    "downloaded_at_utc": "2026-11-06T10:07:26.694142+00:00",
+    "bytes": 4378,
+    "sha256": "5d08ca3dec654938b1909bbc99a9876fad94d948b12648f6e84cc1f1b15f2a59"
+  },
+  "DSNY_Monthly_Tonnage_Data_Data_Dictionary-2026-04-16.xlsx": {
+    "url": "https://data.cityofnewyork.us/api/views/ebb7-mvp5/files/b9c2fb92-d30a-43a9-b259-3b9f9d69a1f6?download=true&filename=DSNY_Monthly_Tonnage_Data_Data_Dictionary-2026-04-16.xlsx",
+    "downloaded_at_utc": "2026-11-06T10:07:27.214845+00:00",
+    "bytes": 117380,
+    "sha256": "19e7f850e77bb8353706cad297da213a48c0fe9e87aac2cd3c4500a695da83a3"
+  }
+}
